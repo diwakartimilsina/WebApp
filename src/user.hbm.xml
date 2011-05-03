@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="com.softbeacon.webapp.beans.User" table="users">
+ <id name="idusers" column="idusers" >
+ <generator class="increment"/>
+ </id>
+ <property name="username" column="username" />
+  <property name="firstname" column="firstname" />
+ <property name="lastname" column="lastname" />
+  <property name="sex" column="sex" />
+ <property name="age" column="age" />
+  <property name="zipcode" column="zipcode" />
+ <property name="email" column="email" />
+  <property name="datecreated" column="datecreated" />
+ </class>
+</hibernate-mapping>
