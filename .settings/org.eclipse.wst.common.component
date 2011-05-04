@@ -3,6 +3,7 @@
     <wb-module deploy-name="WebApp">
         <wb-resource deploy-path="/" source-path="/WebContent"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
         <property name="context-root" value="WebApp"/>
         <property name="java-output-path" value="/WebApp/build/classes"/>
     </wb-module>
